@@ -5,55 +5,84 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>My Portfolio</title>	
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300">
+	<link rel="stylesheet" href="fonts/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container">
-		<div class="row">
-	    	<div class="col-md-6">
-	      		<img class="title-logo" src="http://placekitten.com/100/100" alt="logo">
-	    	</div>
-	    	<div class="col-md-6 text-right text-uppercase">
-		        <h1 class="text-thin title-super">Aaron Smith</h1>
-		        <h4>Front-end developer</h4>
-	    	</div>
-	    </div>
+		<header class="row">
+				<div class="col-md-6">
+	      			<img class="title-logo" src="images/Grand_Slam_Bookkeeping_2.png" alt="logo">
+	    		</div>
+	    		<div class="col-md-6 text-right text-uppercase">
+		        	<h1 class="text-thin title-super">Aaron Smith</h1>
+		        	<h4>Software developer</h4>
+	    		</div>    	
+	    </header>
+
 	    <div class="row">
 	    	<div class="col-md-12">
 	    		<hr class="thick-line">
 	    	</div>
 	    </div>
-	    <div class="row">
+
+	    <section class="row text-center">
+	     	<article class="col-md-6">
+		        <img class="img-responsive" src="#" alt="resume" data-toggle="modal" data-target="#project1">
+		        <h3>Resume</h3>
+		        <p>Click image above to view details about the project</p>
+		        <p><a href="http://github.com/">Link to project</a></p>
+	     	</article>
+	     	<article class="col-md-6">
+		        <img class="img-responsive" src="images/quiz.png" alt="fill-in-the-blank quiz" data-toggle="modal" data-target="#project2">
+		        <h3>Fill-in-the-blank quiz</h3>
+		        <p>Click image above to view details about the project</p>
+		        <p><a href="http://github.com/">Link to project</a></p>
+	     	</article>	     	
+	    </section>
+
+	    <br>
+
+	    <section class="row text-center">
+	    	<article class="col-md-6">
+		        <img class="img-responsive" src="images/travel_blog.png" alt="travel-blog" data-toggle="modal" data-target="#project3">
+		        <h3>Travel blog</h3>
+		        <p>Click image above to view details about the project</p>
+		        <p><a href="http://github.com/">Link to project</a></p>
+	    	</article>
+	    	<article class="col-md-6">
+		        <img class="img-responsive" src="images/movie_website.png" alt="movie-website" data-toggle="modal" data-target="#project4">
+		        <h3>Movie website</h3>
+		        <p>Click image above to view details about the project</p>
+		        <p><a href="http://github.com/">Link to project</a></p>
+	    	</article>
+	    </section>
+
+		<div class="row">
 	    	<div class="col-md-12">
-	    		<img class="img-responsive" src="http://www.placekitten.com/1140/350" alt="main-image">
-	    	</div>	      
-	    </div>
-	    <div class="row">
-		    <div class="col-md-12 text-muted">
-		    	<h2>Featured Work</h2>
-		    </div>	      
-	    </div>
-	    <div class="row text-center">
-	     	<div class="col-md-4">
-		        <img class="img-responsive" src="http://www.placekitten.com/555/300" alt="portfolio-pic-1" data-toggle="modal" data-target="#project1">
-		        <h3>Appify</h3>
-		        <p><a href="http://github.com/">Link to project</a></p>
-	     	</div>
-	     	<div class="col-md-4">
-		        <img class="img-responsive" src="http://www.placekitten.com/555/300" alt="portfolio-pic-2" data-toggle="modal" data-target="#project2">
-		        <h3>Appify</h3>
-		        <p><a href="http://github.com/">Link to project</a></p>
-	     	</div>
-	     	<div class="col-md-4">
-		        <img class="img-responsive" src="http://www.placekitten.com/555/300" alt="portfolio-pic-3" data-toggle="modal" data-target="#project3">
-		        <h3>Appify</h3>
-		        <p><a href="http://github.com/">Link to project</a></p>
+	    		<hr class="thick-line">
 	    	</div>
 	    </div>
+
+	    <footer class="row text-center">
+    		<div class="col-md-3">
+    			<a href="www.twitter.com"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+    		</div>
+    		<div class="col-md-3">
+    			<a href="www.linkedin.com"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+    		</div>
+    		<div class="col-md-3">
+    			<a href="www.github.com"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+    		</div>
+    		<div class="col-md-3">
+    			<a href="www.gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+    		</div>
+	    </footer>
+	    </footer>
 	</div>
 
 	<!-- Modal 1-->
@@ -64,7 +93,7 @@
                     <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="http://www.placekitten.com/555/300">
+                    <img class="img-responsive" src="#">
                     This was my first project in this class. I learned a lot about HTML and CSS.
                 </div>
                 <div class="modal-footer">
@@ -83,7 +112,7 @@
                     <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="http://www.placekitten.com/555/300">
+                    <img class="img-responsive" src="images/quiz.png">
                     This was my first project in this class. I learned a lot about HTML and CSS.
                 </div>
                 <div class="modal-footer">
@@ -102,7 +131,26 @@
                     <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="http://www.placekitten.com/555/300">
+                    <img class="img-responsive" src="images/travel_blog.png">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of modal -->
+
+    <!-- Modal 4-->
+    <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/movie_website.png">
                     This was my first project in this class. I learned a lot about HTML and CSS.
                 </div>
                 <div class="modal-footer">

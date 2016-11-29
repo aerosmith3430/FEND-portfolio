@@ -10,13 +10,9 @@ img, embed, object, video {
 }
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 	color: #747704;
 	font-weight: 300;
-}
-
-.text-muted {
-	color: #bcbbbb;
 }
 
 .text-thin {
@@ -29,8 +25,20 @@ body {
 
 .title-logo {
 	margin-top: 20px;
+	max-height: 100px;
+	max-width: 100px;
 }
 
 .thick-line {
 	border: 1.5px solid #747704;
+}
+
+footer {
+	margin: 20px 0;
+}
+
+footer ul {
+	list-style: none;
+	padding-left: 0;
+	text-decoration: none;
 }
