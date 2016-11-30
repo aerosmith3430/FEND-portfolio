@@ -15,6 +15,10 @@ body {
 	font-weight: 300;
 }
 
+.intro {
+	margin-bottom: 20px;
+}
+
 .text-thin {
 	font-weight: 100;
 }
@@ -33,12 +37,10 @@ body {
 	border: 1.5px solid #747704;
 }
 
-footer {
-	margin: 20px 0;
+section img {
+	padding: 15px;
 }
 
-footer ul {
-	list-style: none;
-	padding-left: 0;
-	text-decoration: none;
+footer {
+	margin: 20px 0;
 }
